@@ -52,42 +52,42 @@ public class Main {
                         taxaConversao = rates.getDouble("ARS");
                         System.out.println("Digite o valor em Dólar: ");
                         double valorDolar = scanner.nextDouble();
-                        System.out.println("O valor em Peso Argentino é: " + valorDolar * taxaConversao);
+                        System.out.println("O valor em Peso Argentino é: ARS$" + valorDolar * taxaConversao);
                         Thread.sleep(3000);
                         break;
                     case 2:
                         taxaConversao = rates.getDouble("ARS");
-                        System.out.println("Digite o valor em Peso Argentino: ");
+                        System.out.println("Digite o valor em Peso Argentino: ARS$");
                         double valorPesoArgentino = scanner.nextDouble();
-                        System.out.println("O valor em Dólar é: " + valorPesoArgentino / taxaConversao);
+                        System.out.println("O valor em Dólar é $: " + valorPesoArgentino / taxaConversao);
                         Thread.sleep(3000);
                         break;
                     case 3:
                         taxaConversao = rates.getDouble("BRL");
-                        System.out.println("Digite o valor em Dólar: ");
+                        System.out.println("Digite o valor em Dólar: $");
                         double valorDolarReal = readDoubleWithTwoDecimals(scanner);
-                        System.out.println("O valor em Real é: " + String.format("%.2f", valorDolarReal * taxaConversao));
+                        System.out.println("O valor em Real é R$: " + String.format("%.2f", valorDolarReal * taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 4:
                         taxaConversao = rates.getDouble("BRL");
-                        System.out.println("Digite o valor em Real: ");
+                        System.out.println("Digite o valor em Real: R$");
                         double valorRealDolar = readDoubleWithTwoDecimals(scanner);
-                        System.out.println("O valor em Dólar é: " + String.format("%.2f", valorRealDolar / taxaConversao));
+                        System.out.println("O valor em Dólar é $: " + String.format("%.2f", valorRealDolar / taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 5:
                         taxaConversao = rates.getDouble("COP");
                         System.out.println("Digite o valor em Dólar: ");
                         double valorDolarPesoColombiano = scanner.nextDouble();
-                        System.out.println("O valor em Peso Colombiano é: " + valorDolarPesoColombiano * taxaConversao);
+                        System.out.println("O valor em Peso Colombiano é: COL$" + valorDolarPesoColombiano * taxaConversao);
                         Thread.sleep(3000);
                         break;
                     case 6:
                         taxaConversao = rates.getDouble("COP");
-                        System.out.println("Digite o valor em Peso Colombiano: ");
+                        System.out.println("Digite o valor em Peso Colombiano: COL$");
                         double valorPesoColombianoDolar = scanner.nextDouble();
-                        System.out.println("O valor em Dólar é: " + valorPesoColombianoDolar / taxaConversao);
+                        System.out.println("O valor em Dólar é $: " + valorPesoColombianoDolar / taxaConversao);
                         Thread.sleep(3000);
                         break;
                     case 7:
