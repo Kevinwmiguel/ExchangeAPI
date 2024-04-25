@@ -52,14 +52,14 @@ public class Main {
                         taxaConversao = rates.getDouble("ARS");
                         System.out.println("Digite o valor em Dólar: ");
                         double valorDolar = scanner.nextDouble();
-                        System.out.println("O valor em Peso Argentino é: ARS$" + valorDolar * taxaConversao);
+                        System.out.println("O valor em Peso Argentino é: ARS$" + String.format("%.2f", valorDolar * taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 2:
                         taxaConversao = rates.getDouble("ARS");
                         System.out.println("Digite o valor em Peso Argentino: ARS$");
                         double valorPesoArgentino = scanner.nextDouble();
-                        System.out.println("O valor em Dólar é $: " + valorPesoArgentino / taxaConversao);
+                        System.out.println("O valor em Dólar é $: " + String.format("%.2f", valorPesoArgentino / taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 3:
@@ -80,19 +80,19 @@ public class Main {
                         taxaConversao = rates.getDouble("COP");
                         System.out.println("Digite o valor em Dólar: ");
                         double valorDolarPesoColombiano = scanner.nextDouble();
-                        System.out.println("O valor em Peso Colombiano é: COL$" + valorDolarPesoColombiano * taxaConversao);
+                        System.out.println("O valor em Peso Colombiano é: COL$" + String.format("%.2f", valorDolarPesoColombiano * taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 6:
                         taxaConversao = rates.getDouble("COP");
                         System.out.println("Digite o valor em Peso Colombiano: COL$");
                         double valorPesoColombianoDolar = scanner.nextDouble();
-                        System.out.println("O valor em Dólar é $: " + valorPesoColombianoDolar / taxaConversao);
+                        System.out.println("O valor em Dólar é $: " + String.format("%.2f", valorPesoColombianoDolar / taxaConversao));
                         Thread.sleep(3000);
                         break;
                     case 7:
                         System.out.println("Sair");
-                        Thread.sleep(3000);
+                        Thread.sleep(1500);
                         break;
                     default:
                         System.out.println("Opção inválida! Por favor, escolha uma opção válida.");
