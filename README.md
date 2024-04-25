@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um Pull Request 
 
 ## Autores
 
-Este projeto foi desenvolvido por Kevin Willians Miguel.
+Este projeto foi desenvolvido por Alura / ONE - Kevin Miguel.
 
 ## Licença
 
