@@ -1,6 +1,9 @@
 # ExchangeAPI
 A java project during the ONE-Oracle Next Generation
 
+![image](https://github.com/Kevinwmiguel/ExchangeAPI/assets/59360014/d42f735f-4588-4f84-b2da-8f56b4180111)
+
+
 ## Conversor de Moeda
 
 Este é um projeto simples de um conversor de moeda que utiliza a API de taxas de câmbio para realizar as conversões.
