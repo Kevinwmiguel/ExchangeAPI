@@ -1,7 +1,8 @@
 # ExchangeAPI
 A java project during the ONE-Oracle Next Generation
 
-![image](https://github.com/Kevinwmiguel/ExchangeAPI/assets/59360014/d42f735f-4588-4f84-b2da-8f56b4180111)
+![Badge-Conversor](https://github.com/Kevinwmiguel/ExchangeAPI/assets/59360014/36270c4a-d8a9-423e-8466-ae6bddf3e1ae)
+
 
 
 ## Conversor de Moeda
