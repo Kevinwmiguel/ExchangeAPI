@@ -1,7 +1,8 @@
 # ExchangeAPI
 A java project during the ONE-Oracle Next Generation
 
-![Badge-Conversor](https://github.com/Kevinwmiguel/ExchangeAPI/assets/59360014/36270c4a-d8a9-423e-8466-ae6bddf3e1ae)
+![Badge-Conversor](https://github.com/Kevinwmiguel/ExchangeAPI/assets/59360014/9ee37c30-a692-42c6-85c0-0c1a8c8d9971)
+
 
 
 
